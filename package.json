@@ -1,0 +1,16 @@
+{
+  "name": "typescript-payment-project",
+  "version": "1.0.0",
+  "description": "A project demonstrating Adapter and Strategy patterns for payment integration",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node main.ts",
+    "compile-and-run": "npm run build && node dist/app/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.x.x",
+    "ts-node": "^10.x.x",
+    "@types/node": "^16.x.x"
+  }
+}
